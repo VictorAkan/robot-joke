@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to right, rgb(119, 204, 230), rgb(99, 174, 196),
+    rgb(62, 147, 173), rgb(33, 103, 124));
+}
+.input-group {
+    border: none !important;
+}
+.form-control {
+    border: none !important;
+}
+.img-robot {
+    height: 370px;
+    margin-top: -30px;
+}
+.w-div {
+    border-radius: 5px;
+}
+.a-div {
+    -webkit-animation : pulse 1s infinite;
+    -moz-animation    : pulse 1s infinite;
+    -o-animation      : pulse 1s infinite;
+    animation         : pulse 1s infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1);
+        opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    }
+}
+@-webkit-keyframes pulse {
+    0%   { -webkit-transform: scale(1)   ; opacity: 1;    }
+    50%  { -webkit-transform: scale(0.75); opacity: 0.25; }
+    100% { -webkit-transform: scale(1)   ; opacity: 1;    }
+ }
